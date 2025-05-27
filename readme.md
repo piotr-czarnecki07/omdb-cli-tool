@@ -1,3 +1,7 @@
+# IMPORTANT
+
+Redis might not be available due to the free database plan and Redis policy, which removes unused free databases after a period of inactivity.
+
 # Overview
 
 CLI tool for fetching movie data and their poster images from the OMDB API.  
