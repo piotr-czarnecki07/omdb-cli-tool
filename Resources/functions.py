@@ -183,6 +183,7 @@ async def poster(args: list, config) -> None:
         username='default',
         password=config.get('REDIS_PASSWORD'),
         decode_responses=True,
+        db=1,
     )
 
     try: # napraw by zapisywało OBRAZY do redisa a nie linki
