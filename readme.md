@@ -12,17 +12,18 @@ Redis is used for caching to improve performance.
 If you are entering only titles or only IDs, omit the unused option tag.*
 
 1. Ensure Python 3.13+ is installed.
-2. Open the Terminal in the project's root directory, for example, by running `cd C:\\path\to\omdb-cli-tool`.
-3. Enter `main.py` followed by either `search` or `poster`:  
+2. Install dependencies from `requirements.txt`
+3. Open the Terminal in the project's root directory, for example, by running `cd C:\\path\to\omdb-cli-tool`.
+4. Enter `main.py` followed by either `search` or `poster`:  
    - `search`: Displays movie data in a table format.  
    - `poster`: Saves poster images of the entered movies.
-4. Enter `--title` or `--id`:  
+5. Enter `--title` or `--id`:  
    - After `--title`, enter movie titles. If a title contains spaces, replace them with `+`.  
      Example: `"Blade+Runner+2049"`.  
    - After `--id`, enter valid IMDb IDs.  
      Separate each title and ID with a space.
-5. If `search` is used, a table of data for the queried movies will be displayed.
-6. If `poster` is used, images will be saved to the `Posters/` directory within the project's root.
+6. If `search` is used, a table of data for the queried movies will be displayed.
+7. If `poster` is used, images will be saved to the `Posters/` directory within the project's root.
 
 ### Example Prompts
 
