@@ -53,6 +53,7 @@ async def search(args: list, config) -> None:
         username='default',
         password=config.get('REDIS_PASSWORD'),
         decode_responses=True,
+        db=1,
     )
 
     # get cached data from Redis
