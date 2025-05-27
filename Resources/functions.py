@@ -66,6 +66,10 @@ async def search(args: list, config) -> None:
            else:
                to_request.append(item)
 
+    except TypeError:
+        print('Argument is None.')
+        exit(1)
+
     except redis.exceptions.RedisError:
         print('Unable to connect to Redis\nRequesting each query from an API')
         to_request = args
