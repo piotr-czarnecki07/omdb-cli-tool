@@ -17,17 +17,18 @@ If you are entering only titles or only IDs, omit the unused option tag.*
 
 1. Ensure Python 3.13+ is installed.
 2. Install dependencies from `requirements.txt`
-3. Open the Terminal in the project's root directory, for example, by running `cd C:\\path\to\omdb-cli-tool`.
-4. Enter `main.py` followed by either `search` or `poster`:  
+3. Create a `.env` file based on the `.env.example` in the same directory as `.env.example` (UWAGA: na potrzeby rekrutacji wzór pliku `.env` jest dostępny w [HASLA](./HASLA.md)). 
+4. Open the Terminal in the project's root directory, for example, by running `cd C:\\path\to\omdb-cli-tool`.
+5. Enter `main.py` followed by either `search` or `poster`:  
    - `search`: Displays movie data in a table format.  
    - `poster`: Saves poster images of the entered movies.
-5. Enter `--title` or `--id`:  
+6. Enter `--title` or `--id`:  
    - After `--title`, enter movie titles. If a title contains spaces, replace them with `+`.  
      Example: `"Blade+Runner+2049"`.  
    - After `--id`, enter valid IMDb IDs.  
      Separate each title and ID with a space.
-6. If `search` is used, a table of data for the queried movies will be displayed.
-7. If `poster` is used, images will be saved to the `Posters/` directory within the project's root.
+7. If `search` is used, a table of data for the queried movies will be displayed.
+8. If `poster` is used, images will be saved to the `Posters/` directory within the project's root.
 
 ### Example Prompts
 
