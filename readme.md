@@ -48,6 +48,6 @@ main.py search --title Blade+Runner+2049 The+Shawshank+Redemption
 - Redis caching
 
 # Credits
-- API: https://www.omdbapi.com \
-- Remade idea from: https://roadmap.sh/projects/tmdb-cli \
+- API: https://www.omdbapi.com
+- Remade idea from: https://roadmap.sh/projects/tmdb-cli
 - Code: https://github.com/piotr-czarnecki07
