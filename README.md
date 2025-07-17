@@ -1,19 +1,22 @@
-# IMPORTANT
+# omdb-cli-tool
 
-Redis might not be available due to the free database plan and Redis policy, which removes unused free databases after a period of inactivity.
-
-# Overview
-
-CLI tool for fetching movie data and their poster images from the OMDB API.  
+CLI tool for fetching movie data and poster images from the OMDB API.  
 Uses asynchronous programming to maximize speed and minimize waiting time when fetching multiple pieces of data and images.  
 
 Movie data includes information such as title, year of release, cast, runtime, director, plot, etc.  
 Redis is used for caching to improve performance.
 
-# Usage
+## Table of Contents
+- [How to Use](#how-to-use)
+- [Key features](#key-features)
+- [License](#license)
+- [Credits](#credits)
 
-*Note: If you are entering both titles and IDs, provide all titles after `--title` and then all IDs after `--id`.  
-If you are entering only titles or only IDs, omit the unused option tag.*
+## How to Use
+
+> [!NOTE]
+> If you are entering both titles and IDs, provide all titles after `--title` and then all IDs after `--id`.  
+> If you are entering only titles or only IDs, omit the unused option tag.*
 
 1. Ensure Python 3.13+ is installed.
 2. Install dependencies from `requirements.txt`
@@ -43,11 +46,16 @@ main.py search --title Blade+Runner+2049 The+Shawshank+Redemption
 # Only --title tag, multiple queries.
 ```
 
-# Key features
+## Key features
 - Asynchronous programming
 - Redis caching
 
-# Credits
+## License
+
+This project is licensed under the MIT License.  
+See [LICENSE](./LICENSE) for more information.
+
+## Credits
 - API: https://www.omdbapi.com
 - Remade idea from: https://roadmap.sh/projects/tmdb-cli
 - Code: https://github.com/piotr-czarnecki07
