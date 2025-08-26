@@ -58,4 +58,3 @@ See [LICENSE](./LICENSE) for more information.
 ## Credits
 - API: https://www.omdbapi.com
 - Remade idea from: https://roadmap.sh/projects/tmdb-cli
-- Code: https://github.com/piotr-czarnecki07
